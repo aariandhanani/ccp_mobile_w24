@@ -95,7 +95,7 @@ li {
     /* padding-top: 20px; */
 
     background: rgb(255,255,255);
-background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 100%);
+    background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 100%);
 
     border: 5px solid navy;
     justify-items: center;
@@ -122,6 +122,9 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
         display: grid;
         grid-template-columns: 5% 40% 10% 40% 5%;
         img {
+            width: 100%;
+        }
+        video {
             width: 100%;
         }
         padding-bottom: 20px;
@@ -165,6 +168,9 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
         img {
             width: 100%;
         }
+        video {
+            width: 100%;
+        }
         padding-bottom: 20px;
     }
 }
@@ -204,6 +210,9 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
         display: grid;
         grid-template-columns: 5% 40% 10% 40% 5%;
         img {
+            width: 100%;
+        }
+        video {
             width: 100%;
         }
         padding-bottom: 20px;
