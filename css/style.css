@@ -276,6 +276,22 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
         grid-template-columns: 80%;
     }
 
+    .card-pets {
+        padding-top: 20px;
+    }
+
+    .card-recipes {
+        padding-top: 20px;
+    }
+
+    .card {
+        padding-top: 20px;
+    }
+
+    .cards-grid {
+        padding-top: 0px;
+    }
+
     /* .nav-style {
         font-size: 15px;
     } */
