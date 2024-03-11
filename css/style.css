@@ -141,3 +141,11 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
     justify-content: space-evenly;
     border: 5px solid navy;
 }
+
+
+@media screen and (max-width: 800px) {
+    .cards-grid {
+        display: grid;
+        grid-template-columns: 80%;
+    }
+}
