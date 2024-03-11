@@ -44,24 +44,18 @@ html{
 }
 
 .content-header-i {
-    .content-header-p {
-    /* background: rgb(255,255,255);
-    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(124,255,122,1) 50%, rgba(255,255,255,1) 100%); */
     justify-content: center;
     align-items: center;
-    height: 100px;
+    /* height: 100px; */
     text-align: center;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding: 20px;
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
 }
 
 .index-class {
@@ -269,8 +263,21 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
     background-color: white;
 }
 
+footer {
+    text-align: center;
+    padding: 40px;
+    /* min-height: 100px; */
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(157deg, rgba(255,255,255,1) 0%, rgba(163,247,255,1) 30%, rgba(255,255,255,1) 58%, rgba(206,255,217,1) 69%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 550px) {
     .cards-grid {
         display: grid;
         grid-template-columns: 80%;
