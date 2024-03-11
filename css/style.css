@@ -263,7 +263,7 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
     justify-content: center;
     padding: 20px;
     font-size: 25px;
-    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
     border: 5px solid navy;
     background-color: white;
@@ -275,4 +275,8 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
         display: grid;
         grid-template-columns: 80%;
     }
+
+    /* .nav-style {
+        font-size: 15px;
+    } */
 }
