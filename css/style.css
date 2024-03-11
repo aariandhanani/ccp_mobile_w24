@@ -31,6 +31,49 @@ html{
     padding-bottom: 50px;
 }
 
+.content-header-p {
+    background: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(124,255,122,1) 50%, rgba(255,255,255,1) 100%);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-header-i {
+    .content-header-p {
+    /* background: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(124,255,122,1) 50%, rgba(255,255,255,1) 100%); */
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.index-class {
+    background: rgb(255,255,255);
+    background: linear-gradient(157deg, rgba(255,255,255,1) 0%, rgba(163,247,255,1) 30%, rgba(255,255,255,1) 58%, rgba(206,255,217,1) 69%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100%; */
+    min-height: 100%;
+}
+
 .title{
     width: auto;
     /* text-align: center; */
@@ -65,6 +108,88 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
     }
     
     h3 {
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        justify-self: center;
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        img {
+            width: 100%;
+        }
+        padding-bottom: 20px;
+    }
+}
+
+.card-recipes {
+    /* padding-top: 20px; */
+
+    background: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
+
+    border: 5px solid maroon;
+    justify-items: center;
+    width: 100%;
+    h2 {
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        justify-self: center;
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        img {
+            width: 100%;
+        }
+        padding-bottom: 20px;
+    }
+}
+
+.card-pets {
+    /* padding-top: 20px; */
+
+    background: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(3,255,0,1) 100%);
+
+    border: 5px solid forestgreen;
+    justify-items: center;
+    width: 100%;
+    h2 {
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+
+    p {
         text-align: center;
     }
 
@@ -132,6 +257,7 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
 }
 
 .nav-style {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     /* min-height: 100px; */
     justify-content: center;
@@ -140,6 +266,7 @@ background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 
     grid-template-columns: 100px 100px 100px 100px;
     justify-content: space-evenly;
     border: 5px solid navy;
+    background-color: white;
 }
 
 
